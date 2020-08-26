@@ -31,7 +31,7 @@ namespace Cards
         private void LoadCards_Click(object sender, EventArgs e)
         {
             PictureBox filePictureBox = null;
-            folderPath = @"C:\Users\Ieva\source\repos\Cards\Playing Cards\Playing Cards\playing_card_images\face";
+            folderPath = @"C:\Users\Ieva\source\repos\Cards\Playing Cards\playing_card_images\face";
             fileNames = Directory.GetFiles(folderPath); 
 
             foreach(var fileName in fileNames)
